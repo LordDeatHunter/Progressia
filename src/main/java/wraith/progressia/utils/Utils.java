@@ -58,7 +58,7 @@ public class Utils {
     public static void addRandomWeaponNBT(ItemStack stack) {
         CompoundTag tag = stack.getOrCreateSubTag("Parts");
         HashMap<Integer, HashMap<String, HashSet<Integer>>> parts = Progressia.PART_AMOUNT;
-        int type = getRandomIntInRange(1, parts.size() - 1);
+        int type = getRandomIntInRange(1, parts.size());
         int variant = getRandomIntFromHashSet(parts.get(type).get("blade"));
         tag.putInt("Type", type);
         tag.putInt("HeadVariant", variant);

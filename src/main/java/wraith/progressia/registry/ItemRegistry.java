@@ -3,6 +3,7 @@ package wraith.progressia.registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.registry.Registry;
 import wraith.progressia.ProgressiaItemGroups;
@@ -30,6 +31,7 @@ public class ItemRegistry {
         ITEMS.put("withered_soul", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
         ITEMS.put("withered_bone", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
         ITEMS.put("withered_blade", new WitherBladeItem(ProgressiaToolMaterial.WITHERED, 6, -2f, new FabricItemSettings().group(ProgressiaItemGroups.WEAPONS)));
+        ITEMS.put("the_ender", new SwordItem(ToolMaterials.IRON, 12, -3f, new FabricItemSettings().group(ProgressiaItemGroups.WEAPONS)));
 
         ITEMS.put("empty_vial", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
         ITEMS.put("blood_vial", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
