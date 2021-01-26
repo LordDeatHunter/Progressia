@@ -3,11 +3,12 @@ package wraith.progressia.registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.registry.Registry;
 import wraith.progressia.ProgressiaItemGroups;
 import wraith.progressia.ProgressiaToolMaterial;
-import wraith.progressia.Utils;
+import wraith.progressia.item.BaseProgressiaSword;
+import wraith.progressia.utils.Utils;
 import wraith.progressia.item.BloodKatanaItem;
 import wraith.progressia.item.WitherBladeItem;
 
@@ -34,6 +35,8 @@ public class ItemRegistry {
         ITEMS.put("blood_vial", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
         ITEMS.put("tortured_soul", new Item(new FabricItemSettings().group(ProgressiaItemGroups.MISC)));
         ITEMS.put("blood_katana", new BloodKatanaItem(ProgressiaToolMaterial.BLOODY, 4, -1.2f, new FabricItemSettings().group(ProgressiaItemGroups.WEAPONS)));
+
+        ITEMS.put("base_progressia_sword", new BaseProgressiaSword(ToolMaterials.IRON, 2, -2f, new FabricItemSettings().group(ProgressiaItemGroups.WEAPONS)));
 
     }
 

@@ -2,7 +2,7 @@ package wraith.progressia.registry;
 
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.registry.Registry;
-import wraith.progressia.Utils;
+import wraith.progressia.utils.Utils;
 
 import java.util.HashMap;
 import java.util.Map;

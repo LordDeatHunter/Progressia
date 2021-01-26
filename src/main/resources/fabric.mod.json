@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "wraith.progressia.Progressia"
+    ],
+    "client": [
+      "wraith.progressia.ProgressiaClient"
     ]
   },
   "mixins": [

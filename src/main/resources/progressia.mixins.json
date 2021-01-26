@@ -4,6 +4,9 @@
   "package": "wraith.progressia.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemStackMixin",
+    "ModelLoaderMixin",
+    "NamespaceResourceManagerMixin"
   ],
   "client": [
   ],
