@@ -1,0 +1,13 @@
+{
+  "item.progressia.withered_bone": "Withered Bone",
+  "item.progressia.withered_soul": "Withered Soul",
+  "item.progressia.withered_blade": "Withered Blade",
+
+  "item.progressia.blood_katana": "Blood Katana",
+  "item.progressia.empty_vial": "Empty Vial",
+  "item.progressia.blood_vial": "Blood Vial",
+  "item.progressia.tortured_soul": "Tortured Soul",
+
+  "itemGroup.progressia.weapons": "Progressia Weapons",
+  "itemGroup.progressia.misc": "Progressia Misc"
+}

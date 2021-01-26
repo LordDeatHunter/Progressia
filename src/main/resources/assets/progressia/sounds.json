@@ -1,0 +1,14 @@
+{
+  "ambient.progressia.lifesteal": {
+	"sounds": [
+	  "progressia:lifesteal_1",
+	  "progressia:lifesteal_2",
+	  "progressia:lifesteal_3"
+	]
+  },
+  "ambient.progressia.wither": {
+    "sounds": [
+	  "progressia:wither_1"
+	]
+  }
+}

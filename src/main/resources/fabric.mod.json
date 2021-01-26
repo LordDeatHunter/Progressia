@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "progressia",
+  "version": "${version}",
+
+  "name": "Progressia",
+  "description": "Ultimate RPG Mod!",
+  "authors": [
+    "LordDeatHunter"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/LordDeatHunter/Progressia"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wraith.progressia.Progressia"
+    ]
+  },
+  "mixins": [
+    "progressia.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

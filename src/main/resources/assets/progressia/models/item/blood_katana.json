@@ -1,0 +1,36 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "progressia:item/blood_katana"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, 90, 20 ],
+      "translation": [ 0, 4.0, 0.5 ],
+      "scale": [ 2, 2, 0.8 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, -90, -20 ],
+      "translation": [ 0, 4.0, 0.5 ],
+      "scale": [ 2, 2, 0.8 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 90, 60 ],
+      "translation": [ 1, 3.5, 1 ],
+      "scale": [ 1.6, 1.6, 0.8 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, -90, -60 ],
+      "translation": [ 1, 3.5, 1 ],
+      "scale": [ 1.6, 1.6, 0.8 ]
+    },
+    "gui": {
+      "translation": [-0.4, -0.4, 0],
+      "scale": [1.6, 1.6, 0.8]
+    },
+    "fixed": {
+      "rotation": [0, 180, 0],
+      "scale": [1.6, 1.6, 0.8]
+    }
+  }
+}
